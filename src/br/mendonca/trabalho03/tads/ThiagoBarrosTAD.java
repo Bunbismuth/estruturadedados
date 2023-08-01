@@ -1,6 +1,6 @@
-package br.mendonca.trabalho02.tads;
+package br.mendonca.trabalho03.tads;
 
-import br.mendonca.trabalho02.ITAD;
+import br.mendonca.trabalho03.ITAD;
 
 import java.util.Random;
 
@@ -61,6 +61,3 @@ public class ThiagoBarrosTAD implements ITAD {
                 "Is on sale? " + isOnSale;
     }
 }
-
-
-
