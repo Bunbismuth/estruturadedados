@@ -3,10 +3,10 @@ package br.mendonca.trabalho04.estruturas;
 import br.mendonca.trabalho04.ITAD;
 import br.mendonca.trabalho04.ITrabalho04;
 import br.mendonca.trabalho04.elementos.ThiagoBarrosElemento;
-import br.mendonca.trabalho04.tads.ThiagoBarrosTAD;
 
 public class ThiagoBarrosEstrutura implements ITrabalho04 {
-    private ThiagoBarrosElemento topo;
+    private ThiagoBarrosElemento cabeca;
+    private ThiagoBarrosElemento inicio;
     private int quantidade = 0;
     @Override
     public String getAluno() {
@@ -20,28 +20,40 @@ public class ThiagoBarrosEstrutura implements ITrabalho04 {
 
     @Override
     public Object getLista() {
-        return topo.getItad();
+        if (inicio == null){
+            return null;
+        } else {
+            return inicio.getItad();
+        }
     }
 
     @Override
     public void enqueue(ITAD tad) {
         ThiagoBarrosElemento novo = new ThiagoBarrosElemento(tad);
 
-        novo.setNext(topo);
-        topo = novo;
+        novo.setNext(cabeca);
+        cabeca = novo;
+        if (quantidade == 0){
+            inicio = novo;
+        }
         quantidade++;
     }
 
     @Override
     public ITAD dequeue() {
-        if (topo == null) {
+        if (quantidade == 0) {
             System.out.println("A lista está vazia, não é possível fazer essa operação");
             return null;
         } else {
-            ThiagoBarrosElemento topoNovo = topo.getNext();
-            ThiagoBarrosElemento topoPrint = topo;
-            topo.setNext(null);
-            topo = topoNovo;
+            ThiagoBarrosElemento cursor = cabeca;
+            ThiagoBarrosElemento anterior = cabeca;
+            while (cursor.getNext() != null){
+                anterior = cursor;
+                cursor = cursor.getNext();
+            }
+            ThiagoBarrosElemento topoPrint = cursor;
+            inicio = anterior;
+            inicio.setNext(null);
             quantidade--;
             return topoPrint.getItad();
         }
@@ -49,7 +61,14 @@ public class ThiagoBarrosEstrutura implements ITrabalho04 {
 
     @Override
     public ITAD get(int posicao) {
-        return null;
+
+        if (posicao < 0 || posicao > quantidade - 1) return null;
+
+        ThiagoBarrosElemento cursor = inicio;
+        for(int i = 0; i < posicao; i++){
+            cursor = cursor.getNext();
+        }
+        return cursor.getItad();
     }
 
     @Override
@@ -59,8 +78,8 @@ public class ThiagoBarrosEstrutura implements ITrabalho04 {
         } else {
             StringBuilder matriz = new StringBuilder();
 
-            ThiagoBarrosElemento cursor = topo;
-            for (int i = 0; i < quantidade; i++){
+            ThiagoBarrosElemento cursor = cabeca;
+            for (int i = quantidade; i > 0; i--){
                 matriz.append("\n" + i + "." + cursor.getItad().print());
                 cursor = cursor.getNext();
             }

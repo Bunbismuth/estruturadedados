@@ -3,10 +3,7 @@ package br.mendonca.trabalho04;
 import br.mendonca.trabalho04.estruturas.ThiagoBarrosEstrutura;
 import br.mendonca.trabalho04.tads.ThiagoBarrosTAD;
 
-import java.util.Arrays;
-
 public class Launch {
-
 	public static void main(String[] args) {
 		ThiagoBarrosTAD elemento1 = new ThiagoBarrosTAD();
 		ThiagoBarrosTAD elemento2 = new ThiagoBarrosTAD();
@@ -24,7 +21,9 @@ public class Launch {
 		System.out.println("Elemento 5: " + elemento5.print());
 
 		System.out.println("---------------------- Adicionando elementos na lista ------------------------");
+		System.out.println(filaDinamica.getLista());
 		filaDinamica.enqueue(elemento1);
+		System.out.println("Printando o elemento 1: \n" + filaDinamica.get(0));
 		filaDinamica.enqueue(elemento2);
 		filaDinamica.enqueue(elemento3);
 		System.out.println("Adicionando os elementos 1, 2 e 3 na fila: \n" + filaDinamica.print());

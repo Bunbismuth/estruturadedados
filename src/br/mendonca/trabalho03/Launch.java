@@ -24,10 +24,11 @@ public class Launch {
 		System.out.println("Elemento 5: " + elemento5.print());
 
 		System.out.println("---------------------- Adicionando elementos na lista ------------------------");
+		System.out.println("Estado inicial da fila estática:" + filaEstatica.print());
 		filaEstatica.enqueue(elemento1);
 		filaEstatica.enqueue(elemento2);
 		filaEstatica.enqueue(elemento3);
-		System.out.println("Adicionando os elementos 1, 2 e 3 na fila: \n" + filaEstatica.print());
+		System.out.println("\nAdicionando os elementos 1, 2 e 3 na fila: \n" + filaEstatica.print());
 
 		System.out.println("---------------------- Removendo elementos na lista ------------------------");
 		System.out.println("Removendo um elemento da fila e mostrando o elemento removido: \n" + filaEstatica.dequeue());

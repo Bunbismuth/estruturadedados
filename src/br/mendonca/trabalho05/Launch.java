@@ -30,20 +30,20 @@ public class Launch {
 		System.out.println("Adicionando os elementos 1, 2 e 3 na fila: \n" + filaEstatica.print());
 
 		System.out.println("---------------------- Removendo elementos na lista ------------------------");
-		System.out.println("Removendo um elemento da fila e mostrando o elemento removido: \n" + filaEstatica.pop());
-		System.out.println("\nEstado atual da lista: \n" + filaEstatica.print());
+		System.out.println("Removendo um elemento da pilha e mostrando o elemento removido: \n" + filaEstatica.pop());
+		System.out.println("\nEstado atual da pilha: \n" + filaEstatica.print());
 		System.out.println(Arrays.toString(filaEstatica.getLista()));
 
 		System.out.println("---------------------- Testando Vulnerabilidades ------------------------");
 		filaEstatica.push(elemento4);
 		filaEstatica.pop();
-		System.out.println("Adicionando e removendo da fila: \n" + filaEstatica.print());
+		System.out.println("Adicionando e removendo da pilha: \n" + filaEstatica.print());
 		filaEstatica.push(elemento5);
 		filaEstatica.push(elemento1);
 		filaEstatica.push(elemento2);
-		System.out.println("\nTentando adicionar em uma lista cheia: " + filaEstatica.print());
+		System.out.println("\nTentando adicionar em uma pilha cheia: " + filaEstatica.print());
 		filaEstatica.push(elemento1);
-		System.out.println("\nTentando remover itens em uma lista vazia: \n");
+		System.out.println("\nTentando remover itens em uma pilha vazia: \n");
 		while (filaEstatica.getQuantidade() != 0){
 			filaEstatica.pop();
 		}
