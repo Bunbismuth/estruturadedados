@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43c24411-e894-4a95-9c6a-e0f51cb5b42e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho07/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho07/trabalho07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho04/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho04/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho04/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho04/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho04/estruturas/ThiagoBarrosEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho04/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho06/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho06/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho06/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho06/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho07/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho07/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho07/elementos/FulanoDeTalElemento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho07/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho07/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho07/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho07/tads/ThiagoBarrosTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho08/elementos/FulanoDeTalElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho08/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho08/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho08/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho08/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho08/tads/ThiagoBarrosTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho09/ITrabalho09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho09/ITrabalho09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho09/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho09/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho09/elementos/FulanoDeTalElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho09/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho09/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho09/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/mendonca/trabalho09/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/mendonca/trabalho09/tads/ThiagoBarrosTAD.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TaZVHCUCo4djAHeWbhq4ovI9Os" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Thiago Barros/Documents/GitHub/estruturadedados/src/br/mendonca/trabalho07"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43c24411-e894-4a95-9c6a-e0f51cb5b42e" name="Changes" comment="" />
+      <created>1691283174012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691283174012</updated>
+    </task>
+    <servers />
+  </component>
+</project>

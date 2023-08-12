@@ -49,5 +49,13 @@ public class Launch {
 			filaEstatica.dequeue();
 		}
 		filaEstatica.dequeue();
+		filaEstatica.enqueue(elemento1);
+		filaEstatica.enqueue(elemento2);
+		System.out.println(filaEstatica.print());
+
+		System.out.println("Removendo e printando o elemento removido:\n" + filaEstatica.dequeue());
+		System.out.println(filaEstatica.print());
+		System.out.println("Removendo e printando o elemento removido\n" + filaEstatica.dequeue());
 	}
+
 }

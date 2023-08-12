@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecaa5851-26e5-4ce4-ba9d-f7310cb71fc0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../trabalho07/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho07/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho07/elementos/FulanoDeTalElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho07/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho07/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho07/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho07/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho07/tads/ThiagoBarrosTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho08/elementos/FulanoDeTalElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho08/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho08/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho08/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho08/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho08/tads/ThiagoBarrosTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho09/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho09/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho09/elementos/FulanoDeTalElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho09/elementos/ThiagoBarrosElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho09/estruturas/FulanoDeTalEstrutura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho09/estruturas/ThiagoBarrosEstrutura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalho09/tads/FulanoDeTalTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalho09/tads/ThiagoBarrosTAD.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2TakfeXSakBEDCU3gXCt4lhiGf1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Thiago Barros/Documents/GitHub/estruturadedados/src/br/mendonca/trabalho03"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="trabalho02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="trabalho02" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecaa5851-26e5-4ce4-ba9d-f7310cb71fc0" name="Changes" comment="" />
+      <created>1691288683151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691288683151</updated>
+    </task>
+    <servers />
+  </component>
+</project>
