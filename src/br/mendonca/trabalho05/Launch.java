@@ -45,8 +45,9 @@ public class Launch {
 		filaEstatica.push(elemento1);
 		System.out.println("\nTentando remover itens em uma pilha vazia: \n");
 		while (filaEstatica.getQuantidade() != 0){
-			filaEstatica.pop();
+			System.out.println("\nRemovendo os elementos da pilha: \n" + filaEstatica.pop());
 		}
+
 		filaEstatica.pop();
 	}
 }

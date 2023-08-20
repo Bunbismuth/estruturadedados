@@ -45,8 +45,13 @@ public class Launch {
 		pilhaDinamica.push(elemento1);
 		System.out.println("\nTentando remover itens em uma pilha dinamica vazia: \n");
 		while (pilhaDinamica.getQuantidade() != 0){
-			pilhaDinamica.pop();
+			System.out.println("\nRemovendo itens da pilha: \n" + pilhaDinamica.pop());
 		}
+		pilhaDinamica.push(elemento1);
+		pilhaDinamica.push(elemento2);
+		System.out.println("\nAdicionando mais dois elementos para a pilha: ");
+
+		System.out.println("\nRemovendo o elemento 2 da pilha: " + pilhaDinamica.pop());
 		pilhaDinamica.pop();
 	}
 }

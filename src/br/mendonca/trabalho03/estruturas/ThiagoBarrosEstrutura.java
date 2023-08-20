@@ -59,7 +59,7 @@ public class ThiagoBarrosEstrutura implements ITrabalho03 {
 
     @Override
     public ITAD get(int posicao) {
-        if (posicao < 0 || posicao > quantidade - 1){
+        if (posicao < 0 || posicao > filaEstatica.length - 1){
             System.out.println("Posição informada é inexistente");
             return null;
         } else {

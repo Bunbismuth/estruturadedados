@@ -44,6 +44,8 @@ public class Launch {
 		filaEstatica.enqueue(elemento2);
 		System.out.println("\nTentando adicionar em uma lista cheia: " + filaEstatica.print());
 		filaEstatica.enqueue(elemento1);
+
+		System.out.println("\nMostrando o último elemento da lista: \n" + filaEstatica.get(5));
 		System.out.println("\nTentando remover itens em uma lista vazia: \n");
 		while (filaEstatica.getQuantidade() != 0){
 			filaEstatica.dequeue();
@@ -56,6 +58,27 @@ public class Launch {
 		System.out.println("Removendo e printando o elemento removido:\n" + filaEstatica.dequeue());
 		System.out.println(filaEstatica.print());
 		System.out.println("Removendo e printando o elemento removido\n" + filaEstatica.dequeue());
-	}
+		filaEstatica.enqueue(elemento3);
+		System.out.println(filaEstatica.print());
 
+		filaEstatica.enqueue(elemento1);
+		filaEstatica.enqueue(elemento2);
+		System.out.println(filaEstatica.print());
+
+		System.out.println("\nTestando para ver se é removido o elemento na posição 4");
+		System.out.println("\nRemovendo e printado o elemento removido\n" + filaEstatica.dequeue());
+		System.out.println("\nEstado atual da lista: " + filaEstatica.print());
+
+		System.out.println("\nTestando para ver se é removido o elemento na posição 1");
+		System.out.println("\nRemovendo e printado o elemento removido\n" + filaEstatica.dequeue());
+		System.out.println("\nEstado atual da lista: " + filaEstatica.print());
+
+		System.out.println("\nTestando para ver se é removido o elemento na posição 2");
+		System.out.println("\nRemovendo e printado o elemento removido\n" + filaEstatica.dequeue());
+		System.out.println("\nEstado atual da lista: " + filaEstatica.print());
+
+		System.out.println("\nAdicionando mais um elemento para ver se é adicionado na posição 2: ");
+		filaEstatica.enqueue(elemento5);
+		System.out.println(filaEstatica.print());
+	}
 }
